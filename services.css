@@ -1,0 +1,36 @@
+.service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .wedding {
+    flex-direction: row-reverse;
+  }
+  
+  .birthday {
+    flex-direction: row;
+  }
+  
+  .corporate {
+    flex-direction: row;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    z-index: 1;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cta-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
