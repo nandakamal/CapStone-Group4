@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  background-color: #D4A373 !important;
+  border: 0px !important;
+}
+
+header {
+  background-color: #CCD5AE;
+  color: #FEFAE0;
+}
+
+.venue-container {
+  margin: 0 auto;
+}
+
+.venue-name {
+  font-weight: bold;
+}
+
+.venue-info {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.venue-actions {
+  margin-top: 5px;
+}
+
+.package-container {
+  margin: 0 auto;
+}
+
+.package-name {
+  font-weight: bold;
+}
+
+.package-price {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.package-actions {
+  margin-top: 5px;
+}
+
+.user-container {
+  /*max-width: 600px;*/
+  margin: 0 auto;
+}
+
+.user-username {
+  font-weight: bold;
+}
+
+.user-email {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.user-actions {
+  margin-top: 5px;
+}
